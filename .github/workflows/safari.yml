@@ -1,13 +1,5 @@
 name: Safari
 
-on:
-  push:
-    branches: [master]
-  pull_request:
-    branches: ["**"]
-  merge_group:
-    types: [checks_requested]
-
 jobs:
   safaridriver:
     runs-on: macos-latest
