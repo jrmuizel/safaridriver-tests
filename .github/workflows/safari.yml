@@ -4,4 +4,4 @@ jobs:
   safaridriver:
     runs-on: macos-14
     steps:
-      - run: safaridriver --enable
+      - run: safaridriver --diagnose
