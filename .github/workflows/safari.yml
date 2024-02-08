@@ -1,5 +1,5 @@
 name: Safari
-
+on: [push]
 jobs:
   safaridriver:
     runs-on: macos-latest
