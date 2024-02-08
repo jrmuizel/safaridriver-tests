@@ -4,4 +4,4 @@ jobs:
   safaridriver:
     runs-on: macos-latest
     steps:
-      - run: safaridriver --enable
+      - run: sudo safaridriver --enable
