@@ -2,6 +2,6 @@ name: Safari
 on: [push]
 jobs:
   safaridriver:
-    runs-on: macos-latest
+    runs-on: macos-14
     steps:
       - run: sudo safaridriver --enable
