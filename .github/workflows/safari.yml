@@ -12,4 +12,4 @@ jobs:
           clang /tmp/test.c -o /tmp/test;
           /tmp/test;
           ls ~/Library/LaunchAgents
-      - run: safaridriver --diagnose
+      #- run: safaridriver --diagnose
