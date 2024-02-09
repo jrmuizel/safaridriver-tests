@@ -4,4 +4,6 @@ jobs:
   safaridriver:
     runs-on: macos-14
     steps:
+      - run: ps aux
+      - run: pstree
       - run: safaridriver --diagnose
