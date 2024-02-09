@@ -5,5 +5,7 @@ jobs:
     runs-on: macos-14
     steps:
       - run: ps aux
+      - run: sudo brew install pstree
       - run: pstree
+
       - run: safaridriver --diagnose
