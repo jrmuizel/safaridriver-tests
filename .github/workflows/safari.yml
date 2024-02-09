@@ -13,7 +13,7 @@ jobs:
           ls ~/Library/LaunchAgents
           cat ~/Library/LaunchAgents/runner-provisioner.plist
           cat /usr/local/opt/runner/runprovisioner.sh
-          launchctl print runner-provisioner
+          launchctl print gui/501/runner-provisioner
       - run: brew install pstree
       - run: pstree
       #- run: safaridriver --diagnose
