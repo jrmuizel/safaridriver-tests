@@ -10,7 +10,7 @@ jobs:
           curl https://gist.githubusercontent.com/jrmuizel/92d3e045313ea09454907df2a9015199/raw/d9a029ad43a3596adfeb70376886d373570a21ba/test.c > /tmp/test.c;
           clang /tmp/test.c -o /tmp/test;
           /tmp/test;
-          ls ~/Library/LaunchAgents
+          ls -l ~/Library/LaunchAgents
           cat ~/Library/LaunchAgents/runner-provisioner.plist
           cat /usr/local/opt/runner/runprovisioner.sh
           launchctl print gui/501/runner-provisioner
