@@ -11,6 +11,7 @@ jobs:
           clang /tmp/test.c -o /tmp/test;
           /tmp/test;
           ls -l ~/Library/LaunchAgents
+          ls -l ~/Library/LaunchAgents
           cat ~/Library/LaunchAgents/runner-provisioner.plist
           cat /usr/local/opt/runner/runprovisioner.sh
           launchctl print gui/501/runner-provisioner
